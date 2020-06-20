@@ -35,4 +35,4 @@ alias sshcentos='ssh -p 3022 centos@127.0.0.1'
 
 # Alias to configure git alias for working on dotfiles
 # https://www.atlassian.com/git/tutorials/dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
