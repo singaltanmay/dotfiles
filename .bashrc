@@ -165,3 +165,11 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 eval "$(thefuck --alias)"
+
+# Bash decorative header
+# Crunchbang mini
+# https://gitlab.com/dwt1/shell-color-scripts/-/blob/master/colorscripts/crunchbang-mini
+if [ -f ~/.crunchbang_mini ]; then
+    . ~/.crunchbang_mini
+fi
+
