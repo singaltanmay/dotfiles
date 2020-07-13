@@ -24,6 +24,9 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 
+# Git log to show compact history in a decorated dag.
+alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 # Alias to launch android studio
 alias studio="bash ~/Applications/android-studio/bin/studio.sh &"
 
