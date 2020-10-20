@@ -211,7 +211,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-eval "$(thefuck --alias)"
+#eval "$(thefuck --alias)"
 
 # Bash decorative header
 # Crunchbang mini
