@@ -1,6 +1,3 @@
-# Copy of /etc/transmission-deamon/settings.json
-# Use this to manually set-up symlink
-
 {
     "alt-speed-down": 125,
     "alt-speed-enabled": false,
@@ -30,8 +27,8 @@
     "message-level": 1,
     "peer-congestion-algorithm": "",
     "peer-id-ttl-hours": 6,
-    "peer-limit-global": 32767,
-    "peer-limit-per-torrent": 16383,
+    "peer-limit-global": 32828,
+    "peer-limit-per-torrent": 16414,
     "peer-port": 51413,
     "peer-port-random-high": 65535,
     "peer-port-random-low": 49152,
