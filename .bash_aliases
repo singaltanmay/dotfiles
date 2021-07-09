@@ -14,7 +14,7 @@
 # Some ls aliases
 alias l='ls -CF'
 alias la='ls -A'
-alias ll='ls -alF'
+alias ll='exa -al --color=always --group-directories-first'
 alias ls='ls --color=auto'
 
 # Some quality of life aliases
