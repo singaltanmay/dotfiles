@@ -213,6 +213,8 @@ fi
 
 #eval "$(thefuck --alias)"
 
+neofetch
+
 # Bash decorative header
 # Crunchbang mini
 # https://gitlab.com/dwt1/shell-color-scripts/-/blob/master/colorscripts/crunchbang-mini
@@ -221,12 +223,12 @@ if [ -f ~/.crunchbang_mini ]; then
 fi
 
 # Enable powerline
-if [ -f `which powerline-daemon` ]; then
-  powerline-daemon -q
-  POWERLINE_BASH_CONTINUATION=1
-  POWERLINE_BASH_SELECT=1
-  . /usr/share/powerline/bash/powerline.sh
-fi
+#if [ -f `which powerline-daemon` ]; then
+#  powerline-daemon -q
+#  POWERLINE_BASH_CONTINUATION=1
+#  POWERLINE_BASH_SELECT=1
+#  . /usr/share/powerline/bash/powerline.sh
+#fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
